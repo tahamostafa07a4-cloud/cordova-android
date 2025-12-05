@@ -1,0 +1,6 @@
+npm install -g cordova
+cordova create InventoryApp com.yourcompany.inventory InventoryManager
+cd InventoryApp
+cordova platform add android
+2.  **إضافة ملف HTML:**
+* انسخ محتوى ملف `financial_inventory_app.html` إلى ملف جديد باسم `index.html` في مجلد `www/` الخاص بمشروع Cordova.
